@@ -1,0 +1,61 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 500px;
+}
+
+.about .left p {
+    margin: 1.3rem 0;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.skill-text {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ff6666;
+    border-radius: 15px;
+    padding: 10px;
+    width: 175px;
+    margin: 10px;
+}
+
+.skill-text p {
+    font-weight: bolder;
+}
+
+.git-image,
+.netlify-image,
+.nodejs-image,
+.reactjs-image,
+.bootstrap-image,
+.js-image,
+.css-image,
+.html5-image,
+.vscode-image,
+.heroku-image,
+.expressjs-image,
+.mongodb-image,
+.mysql-image {
+    height: 40px;
+}
+
+.about .right{
+    max-width: 700px;
+}

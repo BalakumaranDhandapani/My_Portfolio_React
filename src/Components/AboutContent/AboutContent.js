@@ -38,6 +38,11 @@ function AboutContent() {
             subs: "nodejs-image"
         },
         {
+            pic: "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+            skillname: "Express js",
+            subs: "expressjs-image"
+        },
+        {
             pic: "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
             skillname: "MongoDB",
             subs: "mongodb-image"
@@ -61,14 +66,14 @@ function AboutContent() {
             <div className='right'>
                 <section id="about">
                     <div className="skills">
-                        <h3 className="skill-heading"> My <span style={{ color: "#ff6666" }}>Tech Stack</span></h3>
-                        {/* <h5 className="skill-heading" style={{ color: "rgb(147, 51, 234)" }}>The skills, tools and technologies I use to
-                            bring your products to life:</h5> */}
-                        {
-                            skillsets.map((skills) => {
-                                return <AboutCard skills={skills} />
-                            })
-                        }
+                        <h3 className="skill-heading" > <span style={{ color: "#ff6666" }}> My Tech Stack</span></h3>
+                        <div className="skill-list">
+                            {
+                                skillsets.map((skills) => {
+                                    return <AboutCard skills={skills} />
+                                })
+                            }
+                        </div>
                     </div>
                 </section>
             </div>

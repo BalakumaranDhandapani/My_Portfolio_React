@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer'>
       <div className='footer-container'>
         <div className='left'>
-          <div className='copyrights'> Built by Bala. <FaCopyright /> Copyrights reserved.</div>
+          <div className='copyrights'> Bala <FaCopyright /> Copyrights reserved.</div>
         </div>
         <div className='right'>
           <div className='social'>

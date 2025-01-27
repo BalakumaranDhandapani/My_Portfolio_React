@@ -7,7 +7,7 @@
 
 .hero2-image::before {
     content: "";
-            background: url("HeroIntro");
+            background: url("https://www.redhat.com/architect/sites/default/files/styles/google_discover/public/2021-03/study-books-computer-skills-software-architect-programming_0.jpg?itok=phoISMpX");
     background-size: cover;
     background-position: center top;
     height: 100%;
